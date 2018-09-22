@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 main()
 {
 	float High1 ;
@@ -19,14 +20,13 @@ main()
 	
 	
 	float Radius2 ;
-	float PI2=3.14;
 	float Answer2;
 	
 	printf("\nCircle Area Calculator");
 	printf("\nEnter Radius : ");
 	scanf("%f",&Radius2);
 	
-	Answer2=PI2*(Radius2*Radius2);
+	Answer2= M_PI*(Radius2*Radius2);
 	printf("\nArea of Circle : %.2f",Answer2);
 	printf("\n---------------------------------");
 
